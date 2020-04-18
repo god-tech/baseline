@@ -169,9 +169,3 @@ const main = async () => {
   console.log('----------------- Completed  -----------------');
   console.log(`Please restart the radish-apis for the config to take effect`);
 };
-
-console.log('Patiently waiting 10 seconds for ganache container to init ...');
-setTimeout(() => {
-  console.log('Checking for ganache ...');
-  main();
-}, 10000);
