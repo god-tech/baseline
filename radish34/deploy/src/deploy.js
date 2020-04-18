@@ -169,3 +169,5 @@ const main = async () => {
   console.log('----------------- Completed  -----------------');
   console.log(`Please restart the radish-apis for the config to take effect`);
 };
+
+main();
